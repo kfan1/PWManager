@@ -1,6 +1,5 @@
 import random
 from tkinter import *
-import tkinter
 
 LiST_OF_CHARACTERS = list('abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!?_@#$%&*=')
 
@@ -37,6 +36,7 @@ text2 = Label(text='Email/Username:', font=('Arial', 12, 'normal'))
 text3 = Label(text='Password:', font=('Arial', 12, 'normal'))
 entry1 = Entry()
 entry1.config(width=50)
+entry1.focus()
 entry2 = Entry()
 entry2.config(width=50)
 entry3 = Entry()
